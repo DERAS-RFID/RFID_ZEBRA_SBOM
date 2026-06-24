@@ -1,0 +1,45 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "serialNumber": "urn:uuid:3e671687-395b-41f5-a30f-a58921a69b79",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-06-24T01:56:00Z",
+    "tools": [
+      {
+        "vendor": "Antigravity AI",
+        "name": "SBOM Generator",
+        "version": "1.0"
+      }
+    ],
+    "component": {
+      "type": "application",
+      "name": "CS_RFID3_Host_Sample2",
+      "version": "1.0.0",
+      "description": "RFID3 Host Sample Application"
+    }
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "Symbol.RFID3.Host",
+      "version": "1.2.0.0",
+      "description": "Zebra RFID3 API Host Library",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "RFIDAPI32PC.dll",
+      "version": "unknown",
+      "description": "Zebra Native RFID API Library",
+      "scope": "required"
+    },
+    {
+      "type": "framework",
+      "name": "Microsoft.NETFramework",
+      "version": "4.8",
+      "description": "Microsoft .NET Framework 4.8",
+      "scope": "required"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<bom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" serialNumber="urn:uuid:e18f44db-e579-4556-842b-60f2f1130097" version="1" xmlns="http://cyclonedx.org/schema/bom/1.7">
+  <metadata>
+    <timestamp>2026-06-24T02:05:55.2767978Z</timestamp>
+    <tools>
+      <components>
+        <component type="application">
+          <authors>
+            <author>
+              <name>CycloneDX</name>
+            </author>
+          </authors>
+          <name>CycloneDX module for .NET</name>
+          <version>6.2.0.0</version>
+          <externalReferences>
+            <reference type="website">
+              <url>https://github.com/CycloneDX/cyclonedx-dotnet</url>
+            </reference>
+          </externalReferences>
+        </component>
+      </components>
+    </tools>
+    <component type="application" bom-ref="CS_RFID3_Host_Sample2@1.0.0.0">
+      <name>CS_RFID3_Host_Sample2</name>
+      <version>1.0.0.0</version>
+    </component>
+  </metadata>
+  <components />
+  <dependencies>
+    <dependency ref="CS_RFID3_Host_Sample2@1.0.0.0" />
+  </dependencies>
+</bom>
