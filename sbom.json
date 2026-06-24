@@ -7,7 +7,7 @@
     "timestamp": "2026-06-24T01:56:00Z",
     "tools": [
       {
-        "vendor": "Antigravity AI",
+        "vendor": "CycloneDX module for .NET",
         "name": "SBOM Generator",
         "version": "1.0"
       }
